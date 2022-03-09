@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>StartCode | Main</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -265,6 +265,41 @@
             display: none;
         }
 
+        .SceneTransition {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: #fff;
+            opacity: 0;
+            animation: scene-transition-fade-in 1.2s forwards;
+        }
+
+        .SceneTransition.fade-out {
+            animation: scene-transition-fade-out 1.2s forwards;
+        }
+
+        @keyframes scene-transition-fade-in {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes scene-transition-fade-out {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+            }
+        }
+
     </style>
 
     <div class="frame">
@@ -275,7 +310,7 @@
 
 
         <div class="camera">
-            <div class="map pixel-art">
+            <div id="maps" class="map pixel-art">
                 <div class="character" facing="down" walking="true">
                     <h4 style="position:absolute;text-align:center;max-height: 1.33em;
             word-break: break-all;
@@ -411,36 +446,52 @@
                         <div class="row row-cols-1 row-cols-md-2 g-4">
                             <div class="col">
                                 <div class="card">
-                                    <img src="https://qph.fs.quoracdn.net/main-qimg-72ed35b8135a2789e98194001816e346" class="card-img-top" style="height: 150px;" alt="https://qph.fs.quoracdn.net/main-qimg-72ed35b8135a2789e98194001816e346">
+                                    <img src="https://qph.fs.quoracdn.net/main-qimg-72ed35b8135a2789e98194001816e346"
+                                        class="card-img-top" style="height: 150px;"
+                                        alt="https://qph.fs.quoracdn.net/main-qimg-72ed35b8135a2789e98194001816e346">
                                     <div class="card-body">
-                                       <center> <h5 class="card-title">UI UX Developer</h5></center>
+                                        <center>
+                                            <h5 class="card-title">UI UX Developer</h5>
+                                        </center>
 
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="https://bestpartnereducation.com/public/news/2019/12/tertarik-menjadi-web-developer-ikuti-langkah-ini/web%20developer.jpg" style="height: 150px;" class="card-img-top" alt="https://bestpartnereducation.com/public/news/2019/12/tertarik-menjadi-web-developer-ikuti-langkah-ini/web%20developer.jpg">
+                                    <img src="https://bestpartnereducation.com/public/news/2019/12/tertarik-menjadi-web-developer-ikuti-langkah-ini/web%20developer.jpg"
+                                        style="height: 150px;" class="card-img-top"
+                                        alt="https://bestpartnereducation.com/public/news/2019/12/tertarik-menjadi-web-developer-ikuti-langkah-ini/web%20developer.jpg">
                                     <div class="card-body">
-                                       <center> <h5 class="card-title">Web Developer</h5></center>
+                                        <center>
+                                            <h5 class="card-title">Web Developer</h5>
+                                        </center>
 
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="https://qph.fs.quoracdn.net/main-qimg-72ed35b8135a2789e98194001816e346" class="card-img-top" style="height: 150px;" alt="https://qph.fs.quoracdn.net/main-qimg-72ed35b8135a2789e98194001816e346">
+                                    <img src="https://qph.fs.quoracdn.net/main-qimg-72ed35b8135a2789e98194001816e346"
+                                        class="card-img-top" style="height: 150px;"
+                                        alt="https://qph.fs.quoracdn.net/main-qimg-72ed35b8135a2789e98194001816e346">
                                     <div class="card-body">
-                                       <center> <h5 class="card-title">UI UX Developer</h5></center>
+                                        <center>
+                                            <h5 class="card-title">UI UX Developer</h5>
+                                        </center>
 
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="card">
-                                    <img src="https://bestpartnereducation.com/public/news/2019/12/tertarik-menjadi-web-developer-ikuti-langkah-ini/web%20developer.jpg" style="height: 150px;" class="card-img-top" alt="https://bestpartnereducation.com/public/news/2019/12/tertarik-menjadi-web-developer-ikuti-langkah-ini/web%20developer.jpg">
+                                    <img src="https://bestpartnereducation.com/public/news/2019/12/tertarik-menjadi-web-developer-ikuti-langkah-ini/web%20developer.jpg"
+                                        style="height: 150px;" class="card-img-top"
+                                        alt="https://bestpartnereducation.com/public/news/2019/12/tertarik-menjadi-web-developer-ikuti-langkah-ini/web%20developer.jpg">
                                     <div class="card-body">
-                                       <center> <h5 class="card-title">Web Developer</h5></center>
+                                        <center>
+                                            <h5 class="card-title">Web Developer</h5>
+                                        </center>
 
                                     </div>
                                 </div>
@@ -465,9 +516,26 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
         crossorigin="anonymous"></script>
+    <script src="{{ url('js/sceneTransition.js') }}"></script>
     <script>
+        function changeMaps(maps) {
+            document.getElementById('maps').classList.add('SceneTransition', 'fade-out');
+            setTimeout(() => {
+                x = 90;
+                y = 34;
+                document.getElementById('maps').style.backgroundImage = maps;
+                document.getElementById('maps').style.backgroundSize = "100%";
+                document.getElementById('maps').classList.remove('fade-out');
+                document.getElementById('maps').classList.remove('SceneTransition');
+            }, 2000);
+
+        }
+
+
+
         var character = document.querySelector(".character");
         var map = document.querySelector(".map");
+
 
         //start in the middle of the map
         var x = 90;
@@ -514,18 +582,23 @@
 
             } else if (x > 39 && x < 45 && y > 84 && y < 101) {
                 $('#msg').css('display', 'block');
+
+
             } else if ((y > 101 && y < bottomLimit) && x < 32 && x > 16) {
                 $('#msg').css('display', 'block');
                 y = bottomLimit;
 
+
             } else if ((y > 84 && y < 101) && x > 16 && x < 34) {
                 $('#msg').css('display', 'block');
                 y = 84;
+
             }
 
             if ((x > 14 && x < 34) && y > 84 && y < 101) {
                 $('#msg').css('display', 'block');
                 x = 14;
+
             } else if (x < leftLimit) {
                 console.log('left limit');
                 x = leftLimit;
@@ -536,9 +609,11 @@
             } else if (y < topLimit) {
                 console.log('top limit');
                 y = topLimit;
+                changeMaps("url('https://assets.codepen.io/21542/CameraDemoMap.png')");
             } else if (y > bottomLimit) {
                 console.log('bottom limit');
                 y = bottomLimit;
+                changeMaps("url('room.png')");
             }
 
 

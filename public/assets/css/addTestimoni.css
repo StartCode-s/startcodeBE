@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*, ::before, ::after, h1, h2, h3, h4, h5, h6, p {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #F6F8FD;
+}
+
+/*Variable Collor*/
+#app {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app .logoStartCode {
+  text-align: center;
+  margin: 2rem 1rem 0 1rem;
+}
+
+#app .logoStartCode img {
+  width: 100%;
+  max-width: 58px;
+  margin-bottom: .5rem;
+}
+
+#app .logoStartCode h1 {
+  color: #5E4BF5;
+  font-weight: 700;
+}
+
+#app .testimoniForm {
+  padding: 3rem;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border-radius: 40px;
+  height: fit-content;
+  margin: 2rem 1rem;
+}
+
+#app .testimoniForm h1 {
+  color: #3d4852;
+  font-weight: 600;
+}
+
+#app .testimoniForm h1 .special {
+  color: #5E4BF5;
+}
+
+#app .testimoniForm p {
+  color: #6f6f6f;
+  font-weight: 300;
+}
+
+#app .testimoniForm .formAddReview form .form-floating .form-control {
+  border: none;
+  border-bottom: 2px solid #edf1f4;
+  border-radius: 0;
+  color: #3d4852;
+  padding: 2.5rem 0 .5rem 0;
+}
+
+#app .testimoniForm .formAddReview form .form-floating .form-control:focus {
+  box-shadow: none;
+  border-bottom: 2px solid #5E4BF5;
+}
+
+#app .testimoniForm .formAddReview form .form-floating .form-control:focus + label {
+  color: #5E4BF5;
+  left: 0;
+}
+
+#app .testimoniForm .formAddReview form .form-floating label {
+  color: #a3a9ae;
+  padding: 1rem 0;
+}
+
+#app .testimoniForm .formAddReview form .selectProfile {
+  margin-top: 1.5rem;
+}
+
+#app .testimoniForm .formAddReview form .selectProfile label {
+  color: #a3a9ae;
+}
+
+#app .testimoniForm .formAddReview form .selectProfile .form-control {
+  border: 1px solid #edf1f4;
+}
+
+#app .testimoniForm .formAddReview form .buttonSubmit {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+#app .testimoniForm .formAddReview form .buttonSubmit button {
+  background-color: #5E4BF5;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  width: 100%;
+  padding: 1.2rem 1rem;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #app .testimoniForm {
+    padding: 3rem;
+    border-radius: 40px;
+  }
+  #app .testimoniForm h1 {
+    font-size: 26px;
+    line-height: 36px;
+    max-width: 400px;
+    margin-bottom: 1rem;
+  }
+  #app .testimoniForm p {
+    font-size: 16px;
+    max-width: 400px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #app .testimoniForm {
+    padding: 2rem;
+    border-radius: 40px;
+  }
+  #app .testimoniForm h1 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  #app .testimoniForm p {
+    font-size: 14px;
+    max-width: 400px;
+    margin-bottom: 1.5rem;
+  }
+  #app .testimoniForm .formAddReview form .form-floating .form-control {
+    font-size: 14px;
+  }
+  #app .testimoniForm .formAddReview form .form-floating label {
+    font-size: 14px;
+  }
+  #app .testimoniForm .formAddReview form .selectProfile label {
+    font-size: 14px;
+  }
+  #app .testimoniForm .formAddReview form .selectProfile .form-control {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #app .testimoniForm {
+    padding: 3rem;
+    border-radius: 40px;
+  }
+  #app .testimoniForm h1 {
+    font-size: 32px;
+    line-height: 45px;
+    max-width: 500px;
+    margin-bottom: 1rem;
+  }
+  #app .testimoniForm p {
+    font-size: 16px;
+    max-width: 400px;
+    margin-bottom: 1.5rem;
+  }
+}

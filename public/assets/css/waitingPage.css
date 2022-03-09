@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+*, h1, h2, h3, h4, h5, h6, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.containerPage {
+  background: #7918f2;
+  background: linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerPage .content {
+  color: #fff;
+  text-align: center;
+}
+
+.containerPage .content h1 {
+  font-size: 62px;
+  font-weight: 900;
+}
+
+.containerPage .content p {
+  font-size: 22px;
+}
+
+.containerPage .content .wrapperTimeUpdate {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.containerPage .content .wrapperTimeUpdate .time {
+  margin: 0 .5rem;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  font-weight: 800;
+  font-size: 32px;
+  color: #555555;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerPage .content .wrapperTimeUpdate .time span {
+  color: #7d8da6;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: .2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .containerPage .content h1 {
+    font-size: 32px;
+  }
+  .containerPage .content p {
+    font-size: 16px;
+  }
+  .containerPage .content .wrapperTimeUpdate {
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .containerPage .content .wrapperTimeUpdate .time {
+    padding: 1rem;
+    font-size: 18px;
+    margin: .5rem;
+    width: 23%;
+  }
+  .containerPage .content .wrapperTimeUpdate .time span {
+    font-size: 10px;
+  }
+}
