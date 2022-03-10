@@ -140,7 +140,7 @@
                         <h2>Means <span class="textPrimary">Good Business</span></h2>
                     </div>
                     <div class="row bodySectionService justify-content-center">
-                        <div class="col-6 col-sm-4">
+                        <div class="col-6 col-md-3">
                             <div class="service">
                                 <div class="imageService">
                                     <img src="{{ url('assets/images/webDesignerImagesService.png') }}" alt="">
@@ -153,7 +153,7 @@
                             </div>
                         </div>
 
-                        <div class="col-6 col-sm-4">
+                        <div class="col-6 col-md-3">
                             <div class="service">
                                 <div class="imageService">
                                     <img src="{{ url('assets/images/backendDeveloperImagesService.png') }}" alt="">
@@ -166,7 +166,7 @@
                             </div>
                         </div>
 
-                        <div class="col-12 col-sm-4">
+                        <div class="col-6 col-md-3">
                             <div class="service">
                                 <div class="imageService">
                                     <img src="{{ url('assets/images/frontEndDeveloperImagesService.png') }}" alt="">
@@ -175,6 +175,18 @@
                                     <h3>Frontend Developer</h3>
                                     <p>we can help you with website creation with passion to create beautiful and
                                         functional web applications</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 col-md-3">
+                            <div class="service">
+                                <div class="imageService">
+                                    <img src="{{ url('assets/images/mobileDeveloperService.png') }}" alt="">
+                                </div>
+                                <div class="infoService">
+                                    <h3>Mobile Developer</h3>
+                                    <p>we can help you with the mobile app creation you need with passion to create beautiful and functional web apps</p>
                                 </div>
                             </div>
                         </div>
@@ -345,6 +357,48 @@
                                 <div class="skills">
                                     <img src="{{ url('assets/images/iconSkills/fluter.png') }}" alt="">
                                     <p>Flutter</p>
+                                </div>
+                            </div>
+                            <div class="col-3 col-md-2">
+                                <div class="skills">
+                                    <img src="{{ url('assets/images/iconSkills/adobe.png') }}" alt="">
+                                    <p>Adobe</p>
+                                </div>
+                            </div>
+                            <div class="col-3 col-md-2">
+                                <div class="skills">
+                                    <img src="{{ url('assets/images/iconSkills/expresJS.png') }}" alt="">
+                                    <p>Express JS</p>
+                                </div>
+                            </div>
+                            <div class="col-3 col-md-2">
+                                <div class="skills">
+                                    <img src="{{ url('assets/images/iconSkills/java.png') }}" alt="">
+                                    <p>Java</p>
+                                </div>
+                            </div>
+                            <div class="col-3 col-md-2">
+                                <div class="skills">
+                                    <img src="{{ url('assets/images/iconSkills/kotlin.png') }}" alt="">
+                                    <p>Kotlin</p>
+                                </div>
+                            </div>
+                            <div class="col-3 col-md-2">
+                                <div class="skills">
+                                    <img src="{{ url('assets/images/iconSkills/realm.png') }}" alt="">
+                                    <p>Realm</p>
+                                </div>
+                            </div>
+                            <div class="col-3 col-md-2">
+                                <div class="skills">
+                                    <img src="{{ url('assets/images/iconSkills/sqlite.png') }}" alt="">
+                                    <p>Sqlite</p>
+                                </div>
+                            </div>
+                            <div class="col-3 col-md-2">
+                                <div class="skills">
+                                    <img src="{{ url('assets/images/iconSkills/yii2.png') }}" alt="">
+                                    <p>Yii2</p>
                                 </div>
                             </div>
                         </div>
