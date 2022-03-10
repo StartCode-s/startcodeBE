@@ -337,7 +337,7 @@
                     <h2>Testimoni</h2>
                 </div>
                 <div class="wrapperTestimoni">
-                    @foreach (DB::table('feedback')->get() as $item)
+                    @foreach (DB::table('feedback')->limit(5)->orderBy('id','DESC')->get() as $item)
                     <div class="testimoni">
                         <div class="avatarTestimoni">
                             @if (!is_null($item->thumb))
