@@ -18,7 +18,10 @@
     <meta property="og:image:url" itemprop="image" content="{{ url('assets/img/scode.png') }}" />
     <meta property="og:image:type" content="image/png" />
 
-    <meta property="og:type" content="article" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+
     <meta property="og:locale" content="id" />
 
 
