@@ -13,9 +13,9 @@
     <meta name="author" content="Startcode Indonesia">
     <meta property="og:title" content="Startcode Your Code Friend's" />
     <meta property="og:url" content="https://startcode.id" />
-    <meta property="og:image" itemprop="image" content="{{ url('assets/img/scode.png') }}" />
+    <meta property="og:image" itemprop="image" content="{{ url('assets/images/scode.png') }}" />
 
-    <meta property="og:image:url" itemprop="image" content="{{ url('assets/img/scode.png') }}" />
+    <meta property="og:image:url" itemprop="image" content="{{ url('assets/images/scode.png') }}" />
     <meta property="og:image:type" content="image/png" />
 
     <meta property="og:type" content="website" />
@@ -37,10 +37,10 @@
 </head>
 
 <body>
-    <link itemprop="thumbnailUrl" href="{{ url('assets/img/scode.png') }}">
+    <link itemprop="thumbnailUrl" href="{{ url('assets/images/scode.png') }}">
 
     <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-        <link itemprop="url" href="{{ url('assets/img/scode.png') }}">
+        <link itemprop="url" href="{{ url('assets/images/scode.png') }}">
     </span>
 
     <div id="app">
