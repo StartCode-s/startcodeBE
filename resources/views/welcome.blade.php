@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StartCode | Your Code Friend's</title>
-
+    <meta name="description" content="Startcode is the right solution for those of you who need digitization in any aspect, both in Indonesia and internationally.">
+    <meta name="keywords" content="startcode, coding, digital, php, website, web development, make your own website, code, laravel">
+    <meta name="author" content="Startcode Indonesia">
     <!--Vendor CSS-->
     <!--Bootstrap-->
     <link rel="stylesheet" href="{{ url('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
@@ -15,6 +17,7 @@
     <link rel="stylesheet" href="{{ url('assets/vendor/slick/slick-theme.css') }}">
     <!--Css This Pages-->
     <link rel="stylesheet" href="{{ url('assets/css/landingpage.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url('favicon.ico') }}">
 </head>
 
 <body>
