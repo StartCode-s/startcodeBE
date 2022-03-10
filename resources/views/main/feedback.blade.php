@@ -25,19 +25,28 @@
             <h1>Add your review for more advanced <span class="special">StartCode</span> Working</h1>
             <p>Takes less than 10 minutes to give review for startcode company</p>
 
+
+            @if (Session::has('message'))
+                <div class="alert alert-{{ Session::get('status') }}" role="alert">
+                    {{ Session::get('message') }}
+                </div>
+            @endif
+
+
             <div class="formAddReview">
-                <form action="">
+                <form action="{{ route('addFeedback') }}" method="POST" enctype="multipart/form-data">
+                    @csrf
                     <div class="form-floating mb-3">
-                        <input type="teks" class="form-control" id="yourName" placeholder="M Alfito Rahman">
+                        <input type="text" class="form-control" id="yourName" placeholder="M Alfito Rahman" name="name">
                         <label for="yourName">Your Name</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="teks" class="form-control" id="review" placeholder="Im like startCode">
+                        <input type="text" class="form-control" id="review" placeholder="Im like startCode" name="review">
                         <label for="review">Review</label>
                     </div>
                     <div class="selectProfile">
                         <label for="formFile" class="form-label">Choise Your Picture</label>
-                        <input class="form-control" type="file" id="formFile">
+                        <input class="form-control" type="file" id="formFile" name="image">
                     </div>
 
                     <div class="buttonSubmit">

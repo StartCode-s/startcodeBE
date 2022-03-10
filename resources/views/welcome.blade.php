@@ -242,7 +242,7 @@
                             <div class="col-3 col-md-2">
                                 <div class="skills">
                                     <img src="{{ url('assets/images/iconSkills/php.png') }}" alt="">
-                                    <p>Php</p>
+                                    <p>PHP</p>
                                 </div>
                             </div>
                             <div class="col-3 col-md-2">
@@ -337,42 +337,22 @@
                     <h2>Testimoni</h2>
                 </div>
                 <div class="wrapperTestimoni">
+                    @foreach (DB::table('feedback')->get() as $item)
                     <div class="testimoni">
                         <div class="avatarTestimoni">
+                            @if (!is_null($item->thumb))
+                            <img src="{{ url('thumbReviews/'.$item->thumb) }}" alt="">
+                            @else
                             <img src="{{ url('assets/images/vectorReviewJumbotron.png') }}" alt="">
+                            @endif
                         </div>
                         <div class="comment">
-                            <p>Saya baru menemukan teamseperti ini, kerjanya sangat bagus dan cepat</p>
+                            <p>{{$item->review}}</p>
                         </div>
-                        <p class="name">Tinky</p>
+                        <p class="name">{{$item->name}}</p>
                     </div>
-                    <div class="testimoni">
-                        <div class="avatarTestimoni">
-                            <img src="{{ url('assets/images/vectorReviewJumbotron.png') }}" alt="">
-                        </div>
-                        <div class="comment">
-                            <p>Saya baru menemukan teamseperti ini, kerjanya sangat bagus dan cepat</p>
-                        </div>
-                        <p class="name">Tinky</p>
-                    </div>
-                    <div class="testimoni">
-                        <div class="avatarTestimoni">
-                            <img src="{{ url('assets/images/vectorReviewJumbotron.png') }}" alt="">
-                        </div>
-                        <div class="comment">
-                            <p>Saya baru menemukan teamseperti ini, kerjanya sangat bagus dan cepat</p>
-                        </div>
-                        <p class="name">Tinky</p>
-                    </div>
-                    <div class="testimoni">
-                        <div class="avatarTestimoni">
-                            <img src="{{ url('assets/images/vectorReviewJumbotron.png') }}" alt="">
-                        </div>
-                        <div class="comment">
-                            <p>Saya baru menemukan teamseperti ini, kerjanya sangat bagus dan cepat</p>
-                        </div>
-                        <p class="name">Tinky</p>
-                    </div>
+                    @endforeach
+
                 </div>
                 <div class="slick-slider-dots"></div>
             </div>

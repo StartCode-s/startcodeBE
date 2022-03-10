@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\GameController;
+use App\Http\Controllers\{GameController,MainController};
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,6 +20,11 @@ Route::get('/', function () {
 Route::get('/feedback', function () {
     return view('main.feedback');
 })->name('feedback');
+
+
+Route::post('/addFeedback',[MainController::class,'addFeedback'])->name('addFeedback');
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
