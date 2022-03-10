@@ -96,7 +96,7 @@
             <div class="container">
                 <div class="wrapperContent">
                     <div class="content textContent">
-                        <h1>Finish Your Project With Ours Best <span class="textPrimary">Freelancers</span> .</h1>
+                        <h1>Finish Your Project With Our Best <span class="textPrimary">Freelancers</span> .</h1>
                         <p>We help you in building & managing the website you need, by providing the best service.</p>
                         <div class="wrapperButton">
                             <a href="#">Get Started</a>
