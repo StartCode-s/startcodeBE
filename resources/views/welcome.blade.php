@@ -11,7 +11,9 @@
     <meta name="author" content="Startcode Indonesia">
     <meta property="og:title" content="Startcode Your Code Friend's" />
     <meta property="og:url" content="https://startcode.id" />
-    <meta property="og:image" content="{{ url('favicon.ico') }}" />
+    <meta property="og:image" itemprop="image" content="{{ url('assets/img/scode.png') }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="en_GB" />
 
 
     <!--Vendor CSS-->
