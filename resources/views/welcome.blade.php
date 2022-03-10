@@ -14,8 +14,12 @@
     <meta property="og:title" content="Startcode Your Code Friend's" />
     <meta property="og:url" content="https://startcode.id" />
     <meta property="og:image" itemprop="image" content="{{ url('assets/img/scode.png') }}" />
+
+    <meta property="og:image:url" itemprop="image" content="{{ url('assets/img/scode.png') }}" />
+    <meta property="og:image:type" content="image/png" />
+
     <meta property="og:type" content="article" />
-    <meta property="og:locale" content="en_GB" />
+    <meta property="og:locale" content="id" />
 
 
     <!--Vendor CSS-->
