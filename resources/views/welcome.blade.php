@@ -9,6 +9,11 @@
     <meta name="description" content="Startcode is the right solution for those of you who need digitization in any aspect, both in Indonesia and internationally.">
     <meta name="keywords" content="startcode, coding, digital, php, website, web development, make your own website, code, laravel">
     <meta name="author" content="Startcode Indonesia">
+    <meta property="og:title" content="Startcode Your Code Friend's" />
+    <meta property="og:url" content="https://startcode.id" />
+    <meta property="og:image" content="{{ url('favicon.ico') }}" />
+
+
     <!--Vendor CSS-->
     <!--Bootstrap-->
     <link rel="stylesheet" href="{{ url('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
