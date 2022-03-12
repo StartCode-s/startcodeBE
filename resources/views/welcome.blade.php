@@ -96,18 +96,18 @@
             <div class="container">
                 <div class="wrapperContent">
                     <div class="content textContent">
-                        <h1>Finish Your Project With Our Best <span class="textPrimary">Freelancers</span> .</h1>
-                        <p>We help you in building & managing the website you need, by providing the best service.</p>
+                        <h1>Make your idea come true with <span class="textPrimary">StartCode</span>.</h1>
+                        <p>We help you in building & managing the website and application you need, by providing the best service.</p>
                         <div class="wrapperButton">
                             <a href="#">Get Started</a>
                         </div>
                     </div>
                     <div class="content iconImagesContent">
                         <div class="imagesContent">
-                            <img src="{{ url('assets/images/jumbotronImages.png') }}" alt="">
+                            <img src="./assets/images/jumbotronImages.png" alt="">
                             <div class="review">
                                 <div class="profileUser">
-                                    <img src="{{ url('assets/images/vectorReviewJumbotron.png') }}" alt="">
+                                    <img src="./assets/images/vectorReviewJumbotron.png" alt="">
                                     <div class="infoUser">
                                         <h5>Ajat Supriatna</h5>
                                         <p>Client</p>
@@ -117,11 +117,11 @@
                                     <p>“I just found a team like this, it works very well and fast”</p>
                                 </div>
                                 <div class="rating">
-                                    <img src="{{ url('assets/images/starRatingJumbotron.png') }}" alt="">
-                                    <img src="{{ url('assets/images/starRatingJumbotron.png') }}" alt="">
-                                    <img src="{{ url('assets/images/starRatingJumbotron.png') }}" alt="">
-                                    <img src="{{ url('assets/images/starRatingJumbotron.png') }}" alt="">
-                                    <img src="{{ url('assets/images/starRatingJumbotron.png') }}" alt="">
+                                    <img src="./assets/images/starRatingJumbotron.png" alt="">
+                                    <img src="./assets/images/starRatingJumbotron.png" alt="">
+                                    <img src="./assets/images/starRatingJumbotron.png" alt="">
+                                    <img src="./assets/images/starRatingJumbotron.png" alt="">
+                                    <img src="./assets/images/starRatingJumbotron.png" alt="">
                                 </div>
                             </div>
                         </div>
