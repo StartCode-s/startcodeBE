@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;500;600;700;800;900&display=swap");
 *, ::before, ::after, h1, h2, h3, h4, h5, h6, p {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   outline: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Overpass', sans-serif;
 }
 
 body {
@@ -59,6 +60,7 @@ body {
   color: #5E4BF5;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: all .3s ease;
+  font-family: 'Poppins', sans-serif;
 }
 
 #app #navbarContainer .container .navMenu .buttonNavbarMenu {
@@ -221,6 +223,7 @@ body {
 
 #app #jumbotron .container .wrapperContent .content h1 .textPrimary {
   color: #5E4BF5;
+  font-weight: 600;
 }
 
 #app #jumbotron .container .wrapperContent .content .wrapperButton a {
@@ -1055,6 +1058,7 @@ footer .container .wrapperContentFooter .footerContent .brand {
   display: flex;
   align-items: center;
   margin-bottom: .7rem;
+  text-decoration: none;
 }
 
 footer .container .wrapperContentFooter .footerContent .brand .logoBrand img {
@@ -1064,9 +1068,9 @@ footer .container .wrapperContentFooter .footerContent .brand .logoBrand img {
 
 footer .container .wrapperContentFooter .footerContent .brand .nameBrand {
   color: #fff;
-  font-weight: 700;
-  text-decoration: none;
+  font-weight: 600;
   margin-left: .5rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 footer .container .wrapperContentFooter .footerContent .addres {
