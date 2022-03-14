@@ -24,7 +24,15 @@
 
     <meta property="og:locale" content="id" />
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BSRM83J1NM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-BSRM83J1NM');
+</script>
     <!--Vendor CSS-->
     <!--Bootstrap-->
     <link rel="stylesheet" href="{{ url('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
@@ -236,11 +244,11 @@
                                 <div class="col-6">
                                     <div class="project">
                                         <div class="previewProjectImages">
-                                            <img src="{{ url('assets/images/previewLatestProject.png') }}" alt="">
+                                            <img src="{{ url('assets/images/sunskyProject.png') }}" alt="">
                                         </div>
                                         <div class="previewWebsite">
                                             <div class="detailWebsite">
-                                                <h5>Plantsasri ID</h5>
+                                                <h5>Sunsky Gaming Shop</h5>
                                                 <a href="#">View Website</a>
                                             </div>
                                         </div>
@@ -249,11 +257,11 @@
                                 <div class="col-6">
                                     <div class="project">
                                         <div class="previewProjectImages">
-                                            <img src="{{ url('assets/images/previewLatestProject.png') }}" alt="">
+                                            <img src="{{ url('assets/images/UnisolProject.png') }}" alt="">
                                         </div>
                                         <div class="previewWebsite">
                                             <div class="detailWebsite">
-                                                <h5>Plantsasri ID</h5>
+                                                <h5>Unisol Crypto</h5>
                                                 <a href="#">View Website</a>
                                             </div>
                                         </div>
@@ -263,11 +271,11 @@
                             <div class="col-12 col-md-12 right">
                                 <div class="project">
                                     <div class="previewProjectImages">
-                                        <img src="{{ url('assets/images/previewLatestProject.png') }}" alt="">
+                                        <img src="{{ url('assets/images/cicurugSMPN3.png') }}" alt="">
                                     </div>
                                     <div class="previewWebsite">
                                         <div class="detailWebsite">
-                                            <h5>Plantsasri ID</h5>
+                                            <h5>SMPN 3 Cicurug</h5>
                                             <a href="#">View Website</a>
                                         </div>
                                     </div>
@@ -340,7 +348,7 @@
                             <div class="col-3 col-md-2">
                                 <div class="skills">
                                     <img src="{{ url('assets/images/iconSkills/MI.png') }}" alt="">
-                                    <p>Adobe XD</p>
+                                    <p>ML</p>
                                 </div>
                             </div>
                             <div class="col-3 col-md-2">
@@ -664,6 +672,9 @@
             });
         });
     </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BSRM83J1NM"></script>
+
 </body>
 
 </html>
