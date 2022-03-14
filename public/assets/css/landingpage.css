@@ -772,6 +772,8 @@ body {
   max-width: 64px;
   max-height: 64px;
   border-radius: 50%;
+  object-position: center;
+  object-fit: cover !important;
 }
 
 #testimoni .container .wrapperTestimoni .testimoni .comment p {
