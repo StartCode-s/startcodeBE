@@ -95,33 +95,47 @@
         <div id="jumbotron">
             <div class="container">
                 <div class="wrapperContent">
-                    <div class="content textContent">
-                        <h1>Make your idea come true with <span class="textPrimary">StartCode</span>.</h1>
-                        <p>We help you in building & managing the website and application you need, by providing the best service.</p>
-                        <div class="wrapperButton">
-                            <a href="#">Get Started</a>
+                    <div class="textContent">
+                        <p>Creative Developer</p>
+                        <h1>Make your idea cometrue with <span class="primaryText">StartCode</span></h1>
+                    </div>
+                    <div class="wrapperVector">
+                        <div class="leftSection">
+                            <div class="vector firstVector">
+                                <img src="./assets/images/iconSkills/django.png" alt="">
+                            </div>
+                            <div class="vector secondVector">
+                                <img src="./assets/images/iconSkills/css.png" alt="">
+                            </div>
+                            <div class="vector threeVector">
+                                <img src="./assets/images/iconSkills/fluter.png" alt="">
+                            </div>
+                            <div class="vector fourVector">
+                                <img src="./assets/images/iconSkills/laravel.png" alt="">
+                            </div>
+                        </div>
+                        <div class="rightSection">
+                            <div class="vector firstVector">
+                                <img src="./assets/images/iconSkills/codeigniter.png" alt="">
+                            </div>
+                            <div class="vector secondVector">
+                                <img src="./assets/images/iconSkills/MI.png" alt="">
+                            </div>
+                            <div class="vector threeVector">
+                                <img src="./assets/images/iconSkills/sass.png" alt="">
+                            </div>
+                            <div class="vector fourVector">
+                                <img src="./assets/images/iconSkills/css.png" alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="content iconImagesContent">
-                        <div class="imagesContent">
-                            <img src="./assets/images/jumbotronImages.png" alt="">
-                            <div class="review">
-                                <div class="profileUser">
-                                    <img src="./assets/images/vectorReviewJumbotron.png" alt="">
-                                    <div class="infoUser">
-                                        <h5>Ajat Supriatna</h5>
-                                        <p>Client</p>
-                                    </div>
-                                </div>
-                                <div class="comment">
-                                    <p>“I just found a team like this, it works very well and fast”</p>
-                                </div>
-                                <div class="rating">
-                                    <img src="./assets/images/starRatingJumbotron.png" alt="">
-                                    <img src="./assets/images/starRatingJumbotron.png" alt="">
-                                    <img src="./assets/images/starRatingJumbotron.png" alt="">
-                                    <img src="./assets/images/starRatingJumbotron.png" alt="">
-                                    <img src="./assets/images/starRatingJumbotron.png" alt="">
+
+                    <div class="partnerWrapper">
+                        <div class="whiteCard">
+                            <p>Partnership</p>
+                            <div class="containerPartnership">
+                                <div class="partnership">
+                                    <img src="./assets/images/plantsasriLogo.png" alt="">
                                 </div>
                             </div>
                         </div>
