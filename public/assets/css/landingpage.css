@@ -76,17 +76,12 @@ body {
   color: #373737;
 }
 
-#app #navbarContainer .container .navMenu .buttonNavbarMenu.activeButton {
-  background-color: #5E4BF5;
-  border: none;
+#app #navbarContainer .container .navMenu .buttonNavbarMenu.activeButton i {
+  color: #5E4BF5;
 }
 
-#app #navbarContainer .container .navMenu .buttonNavbarMenu.activeButton ion-icon {
-  color: #fff;
-}
-
-#app #navbarContainer .container .navMenu .buttonNavbarMenu ion-icon {
-  font-size: 32px;
+#app #navbarContainer .container .navMenu .buttonNavbarMenu i {
+  font-size: 28px;
   transition: .3s ease;
 }
 
@@ -759,8 +754,6 @@ body {
   max-width: 64px;
   max-height: 64px;
   border-radius: 50%;
-  object-position: center;
-  object-fit: cover !important;
 }
 
 #testimoni .container .wrapperTestimoni .testimoni .comment p {

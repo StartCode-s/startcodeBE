@@ -34,11 +34,15 @@
   gtag('config', 'G-BSRM83J1NM');
 </script>
     <!--Vendor CSS-->
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="{{ url('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
-    <!--Slick Css-->
-    <link rel="stylesheet" href="{{ url('assets/vendor/slick/slick.css') }}">
-    <link rel="stylesheet" href="{{ url('assets/vendor/slick/slick-theme.css') }}">
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="{{ url('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
+        <!--Slick Css-->
+        <link rel="stylesheet" href="{{ url('assets/vendor/slick/slick.css') }}">
+        <link rel="stylesheet" href="{{ url('assets/vendor/slick/slick-theme.css') }}">
+        <!--Icon Scout-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
     <!--Css This Pages-->
     <link rel="stylesheet" href="{{ url('assets/css/landingpage.css') }}">
     <link rel="icon" type="image/x-icon" href="{{ url('favicon.ico') }}">
@@ -64,7 +68,7 @@
                 </div>
                 <div class="navMenu">
                     <button class="buttonNavbarMenu">
-                        <ion-icon name="reorder-three-outline"></ion-icon>
+                        <i class="uis uis-align-right"></i>
                     </button>
                     <div class="containerMenu">
                         <ul class="wrapperMenu">
