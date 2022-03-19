@@ -497,38 +497,41 @@
                 <div class="titleSection">
                     <h2>Our Team</h2>
                 </div>
-                <div class="wrapperTeam d-flex justify-content-center">
-                    <div class="row justify-content-center">
-                        <div class="col-6 col-md-3">
-                            <div class="team">
-                                <div class="imagesTeam">
-                                    <img src="{{ url('assets/images/Avatar/1.jpg') }}" alt="">
-                                </div>
-                                <p>Reksa Prayoga</p>
+                <div class="containerTeam">
+                    <div class="buttonControl">
+                        <div class="arrow leftAction">
+                            <ion-icon name="chevron-back-outline"></ion-icon>
+                        </div>
+                        <div class="arrow rightAction">
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="slideTeam">
+                        <div class="team">
+                            <div class="infoTeam">
+                                <h2>M Alfito Rahman</h2>
+                                <p>Chief Executive Officer</p>
+                            </div>
+                            <div class="imagesTeam">
+                                <img src="./assets/images/team/team_alfito.png" alt="">
                             </div>
                         </div>
-                        <div class="col-6 col-md-3">
-                            <div class="team">
-                                <div class="imagesTeam">
-                                    <img src="{{ url('assets/images/Avatar/2.jpg') }}" alt="">
-                                </div>
-                                <p>M Alfito Rahman</p>
+                        <div class="team">
+                            <div class="infoTeam">
+                                <h2>Reksya Prayoga Syahputra</h2>
+                                <p>Chief Technology Officer</p>
+                            </div>
+                            <div class="imagesTeam">
+                                <img src="./assets/images/team/team_reksa.png" alt="">
                             </div>
                         </div>
-                        <div class="col-6 col-md-3">
-                            <div class="team">
-                                <div class="imagesTeam">
-                                    <img src="{{ url('assets/images/Avatar/3.jpg') }}" alt="">
-                                </div>
-                                <p>Yoga Saputra</p>
+                        <div class="team">
+                            <div class="infoTeam">
+                                <h2>Yoga Pratama</h2>
+                                <p>UI UX Designer</p>
                             </div>
-                        </div>
-                        <div class="col-6 col-md-3">
-                            <div class="team">
-                                <div class="imagesTeam">
-                                    <img src="{{ url('assets/images/Avatar/4.jpg') }}" alt="">
-                                </div>
-                                <p>Dwi Febryansyah</p>
+                            <div class="imagesTeam">
+                                <img src="./assets/images/team/team_yoga.png" alt="">
                             </div>
                         </div>
                     </div>

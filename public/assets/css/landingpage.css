@@ -754,6 +754,8 @@ body {
   max-width: 64px;
   max-height: 64px;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
 }
 
 #testimoni .container .wrapperTestimoni .testimoni .comment p {
@@ -928,23 +930,68 @@ body {
 }
 
 #team .container .titleSection {
-  text-align: center;
   color: #4B4D4C;
 }
 
-#team .container .wrapperTeam .team {
+#team .container .containerTeam .buttonControl {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
 }
 
-#team .container .wrapperTeam .team .imagesTeam img {
-  width: 100%;
+#team .container .containerTeam .buttonControl .arrow {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 .4rem;
+  background: #5E4BF5;
   border-radius: 50%;
 }
 
-#team .container .wrapperTeam .team p {
-  text-align: center;
+#team .container .containerTeam .buttonControl .arrow ion-icon {
+  color: #fff;
+  font-size: 20px;
+}
+
+#team .container .containerTeam .slideTeam {
+  display: flex;
+  transition: all .5s ease;
+}
+
+#team .container .containerTeam .slideTeam .team {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  transition: all .5s ease;
+}
+
+#team .container .containerTeam .slideTeam .team .infoTeam {
+  padding: 2rem 1.5rem;
+}
+
+#team .container .containerTeam .slideTeam .team .infoTeam h2 {
+  font-family: 'Jost', sans-serif !important;
+  font-weight: 600;
+  transition: all .5s ease;
+}
+
+#team .container .containerTeam .slideTeam .team .infoTeam p {
+  font-family: 'Jost', sans-serif !important;
+  font-style: italic;
+  transition: all .5s ease;
+}
+
+#team .container .containerTeam .slideTeam .team .imagesTeam {
+  position: relative;
+  bottom: 0;
+}
+
+#team .container .containerTeam .slideTeam .team .imagesTeam img {
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  transition: all .5s ease;
 }
 
 @media screen and (min-width: 0px) {
@@ -954,20 +1001,24 @@ body {
   #team .container .titleSection h2 {
     font-size: 22px;
   }
-  #team .container .wrapperTeam .justify-content-center {
-    width: 100%;
+  #team .container .containerTeam .slideTeam .team:not(:last-child) {
+    margin-right: 1.5rem;
   }
-  #team .container .wrapperTeam .team {
-    margin: 1rem 0;
-  }
-  #team .container .wrapperTeam .team .imagesTeam {
-    margin-bottom: .5rem;
-  }
-  #team .container .wrapperTeam .team .imagesTeam img {
-    max-width: 80px;
-  }
-  #team .container .wrapperTeam .team p {
+  #team .container .containerTeam .slideTeam .team .infoTeam h2 {
     font-size: 14px;
+    margin-bottom: .4rem;
+  }
+  #team .container .containerTeam .slideTeam .team .infoTeam p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #team .container .containerTeam .slideTeam .team .infoTeam h2 {
+    font-size: 16px;
+  }
+  #team .container .containerTeam .slideTeam .team .infoTeam p {
+    font-size: 12px;
   }
 }
 
@@ -978,40 +1029,28 @@ body {
   #team .container .titleSection h2 {
     font-size: 26px;
   }
-  #team .container .wrapperTeam .justify-content-center {
-    max-width: 80%;
-  }
-  #team .container .wrapperTeam .team {
-    margin: 0;
-  }
-  #team .container .wrapperTeam .team .imagesTeam {
-    margin-bottom: .7rem;
-  }
-  #team .container .wrapperTeam .team .imagesTeam img {
-    max-width: 100px;
-  }
-  #team .container .wrapperTeam .team p {
-    font-size: 16px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
   #team .container .titleSection h2 {
     font-size: 28px;
   }
-  #team .container .wrapperTeam .justify-content-center {
-    max-width: 60%;
+  #team .container .containerTeam .slideTeam {
+    padding-left: 20rem;
   }
-  #team .container .wrapperTeam .team {
-    margin: 0;
+  #team .container .containerTeam .slideTeam .team .infoTeam h2 {
+    font-size: 18px;
   }
-  #team .container .wrapperTeam .team .imagesTeam {
-    margin-bottom: .7rem;
+  #team .container .containerTeam .slideTeam .team .infoTeam p {
+    font-size: 14px;
   }
-  #team .container .wrapperTeam .team .imagesTeam img {
-    max-width: 100px;
+}
+
+@media screen and (min-width: 1400px) {
+  #team .container .containerTeam .slideTeam .team .infoTeam h2 {
+    font-size: 20px;
   }
-  #team .container .wrapperTeam .team p {
+  #team .container .containerTeam .slideTeam .team .infoTeam p {
     font-size: 16px;
   }
 }
