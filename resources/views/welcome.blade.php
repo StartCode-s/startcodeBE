@@ -646,6 +646,36 @@
                 }
             ]
         });
+
+
+
+        $('.slideTeam').slick({
+        infinite: false,
+        dots: false,
+        speed: 500,
+        slidesToShow: 2.5,
+        slidesToScroll: 1,
+        arrows: true,
+        autoplay: false,
+        prevArrow: $('.leftAction'),
+        nextArrow: $('.rightAction'),
+        responsive: [
+                {
+                breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2.1,
+                    }
+                },
+
+                {
+                breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1.4,
+                    }
+                },
+                
+            ]
+        });
     </script>
 
 
