@@ -518,11 +518,29 @@
                         </div>
                         <div class="team">
                             <div class="infoTeam">
+                                <h2>Nabila Nur Jayanti</h2>
+                                <p>Chief Operating Officer</p>
+                            </div>
+                            <div class="imagesTeam">
+                                <img src="./assets/images/team/team_nabila.png" alt="">
+                            </div>
+                        </div>
+                        <div class="team">
+                            <div class="infoTeam">
                                 <h2>Reksya Prayoga Syahputra</h2>
                                 <p>Chief Technology Officer</p>
                             </div>
                             <div class="imagesTeam">
                                 <img src="./assets/images/team/team_reksa.png" alt="">
+                            </div>
+                        </div>
+                        <div class="team">
+                            <div class="infoTeam">
+                                <h2>Leonard Deniel Damanik</h2>
+                                <p>Chief Marketing Officer</p>
+                            </div>
+                            <div class="imagesTeam">
+                                <img src="./assets/images/team/team.png" alt="">
                             </div>
                         </div>
                         <div class="team">
