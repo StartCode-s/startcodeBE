@@ -577,7 +577,7 @@
                         </a>
                         <p class="addres">Banana Residence Jl Pisang Mas 4, Kab Bogor, Jawa Barat</p>
                         <div class="wrapperSocialMedia">
-                            <a href="#" class="socialMedia">
+                            <a href="https://www.instagram.com/startcode.id/" class="socialMedia">
                                 <ion-icon name="logo-instagram"></ion-icon>
                             </a>
                             <a href="#" class="socialMedia">
