@@ -567,9 +567,9 @@
                 </path>
             </svg>
             <div class="container">
-                <div class="wrapperContentFooter">
+                <div class="wrapperContentFooter justify-center align-items-center text-center">
                     <div class="footerContent">
-                        <a href="#" class="brand">
+                        <a href="#" class="brand justify-center">
                             <div class="logoBrand">
                                 <img src="{{ url('assets/images/logoStartCode_white.png') }}" alt="">
                             </div>
@@ -586,15 +586,6 @@
                             <a href="#" class="socialMedia">
                                 <ion-icon name="logo-whatsapp"></ion-icon>
                             </a>
-                        </div>
-                    </div>
-                    <div class="footerContent">
-                        <h2 class="labelService">Service</h2>
-                        <div class="wrapperService">
-                            <a href="#">UI UX Designer</a>
-                            <a href="#">Backend Development</a>
-                            <a href="#">Frontend Development</a>
-                            <a href="#">Mobile Development</a>
                         </div>
                     </div>
                 </div>
