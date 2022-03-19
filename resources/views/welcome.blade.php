@@ -540,7 +540,7 @@
                                 <p>Chief Marketing Officer</p>
                             </div>
                             <div class="imagesTeam">
-                                <img src="./assets/images/team/team.png" alt="">
+                                <img src="./assets/images/team/team_leo.png" alt="">
                             </div>
                         </div>
                         <div class="team">
