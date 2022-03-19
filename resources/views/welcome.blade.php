@@ -567,9 +567,9 @@
                 </path>
             </svg>
             <div class="container">
-                <div class="wrapperContentFooter justify-center align-items-center text-center">
+                <div class="wrapperContentFooter justify-content-center align-items-center text-center">
                     <div class="footerContent">
-                        <a href="#" class="brand justify-center">
+                        <a href="#" class="brand justify-content-center">
                             <div class="logoBrand">
                                 <img src="{{ url('assets/images/logoStartCode_white.png') }}" alt="">
                             </div>
