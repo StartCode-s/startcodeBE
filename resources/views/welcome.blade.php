@@ -552,6 +552,15 @@
                                 <img src="./assets/images/team/team_yoga.png" alt="">
                             </div>
                         </div>
+                        <div class="team">
+                            <div class="infoTeam">
+                                <h2>Dwi Febryansyah</h2>
+                                <p>Backend Developer</p>
+                            </div>
+                            <div class="imagesTeam">
+                                <img src="./assets/images/team/team_dwi.png" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
