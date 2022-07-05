@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StartCode | Your Code Friend's</title>
+    <title>StartCode | Your Friend's</title>
     <meta name="description"
         content="Startcode is the right solution for those of you who need digitization in any aspect, both in Indonesia and internationally.">
     <meta name="keywords"
@@ -109,7 +109,7 @@
                 <div class="wrapperContent">
                     <div class="textContent">
                         <p>Creative Developer</p>
-                        <h1>Make your idea cometrue with <span class="primaryText">StartCode</span></h1>
+                        <h1>Make your ideas come true with <span class="primaryText">StartCode</span></h1>
                     </div>
                     <div class="wrapperVector">
                         <div class="leftSection">
@@ -172,7 +172,7 @@
                                     <img src="{{ url('assets/images/webDesignerImagesService.png') }}" alt="">
                                 </div>
                                 <div class="infoService">
-                                    <h3>Web Designer</h3>
+                                    <h3>Web Design</h3>
                                     <p>we can help you create a web designer with a passion for creating beautiful and
                                         functional web applications</p>
                                 </div>
@@ -185,7 +185,7 @@
                                     <img src="{{ url('assets/images/backendDeveloperImagesService.png') }}" alt="">
                                 </div>
                                 <div class="infoService">
-                                    <h3>Backend Developer</h3>
+                                    <h3>Backend Developing</h3>
                                     <p>we can help you backend with passion for creating beautiful and functional web
                                         apps</p>
                                 </div>
@@ -198,7 +198,7 @@
                                     <img src="{{ url('assets/images/frontEndDeveloperImagesService.png') }}" alt="">
                                 </div>
                                 <div class="infoService">
-                                    <h3>Frontend Developer</h3>
+                                    <h3>Frontend Developing</h3>
                                     <p>we can help you with website creation with passion to create beautiful and
                                         functional web applications</p>
                                 </div>
@@ -211,7 +211,7 @@
                                     <img src="{{ url('assets/images/mobileDeveloperService.png') }}" alt="">
                                 </div>
                                 <div class="infoService">
-                                    <h3>Mobile Developer</h3>
+                                    <h3>Mobile Developing</h3>
                                     <p>we can help you with the mobile app creation you need with passion to create beautiful and functional web apps</p>
                                 </div>
                             </div>
@@ -230,7 +230,9 @@
                         <h2>Featured Works</h2>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-md-6 mb-3 mb-md-0">
+                        <div class="col-12 col-md-6 h-100">
+
+                        <div class="col-12 col-md-12 left">
                             <div class="project">
                                 <div class="previewProjectImages">
                                     <img src="{{ url('assets/images/previewLatestProject.png') }}" alt="">
@@ -238,12 +240,28 @@
                                 <div class="previewWebsite">
                                     <div class="detailWebsite">
                                         <h5>Plantsasri ID</h5>
-                                        <a href="#">View Website</a>
+                                        <a href="http://plantsasri.co.id/">View Website</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <br>
+                        <div class="col-12 col-md-12 left">
+                            <div class="project">
+                                <div class="previewProjectImages">
+                                    <img src="{{ url('assets/images/goldenkitchen.png') }}" alt="">
+                                </div>
+                                <div class="previewWebsite">
+                                    <div class="detailWebsite">
+                                        <h5>Golden Kitchen Spray and Rennovation</h5>
+                                        <a href="https://goldenkitchenrenovation.com.au/">View Website</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
                         <div class="col-12 col-md-6 h-100">
+                            <br>
                             <div class="row mb-3 right">
                                 <div class="col-6">
                                     <div class="project">
@@ -253,7 +271,7 @@
                                         <div class="previewWebsite">
                                             <div class="detailWebsite">
                                                 <h5>Sunsky Gaming Shop</h5>
-                                                <a href="#">View Website</a>
+                                                <a href="https://www.sunskygamingshop.com">View Website</a>
                                             </div>
                                         </div>
                                     </div>
@@ -266,26 +284,31 @@
                                         <div class="previewWebsite">
                                             <div class="detailWebsite">
                                                 <h5>Unisol Crypto</h5>
-                                                <a href="#">View Website</a>
+                                                <a href="https://unisol.me/">View Website</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <br>
                             <div class="col-12 col-md-12 right">
                                 <div class="project">
                                     <div class="previewProjectImages">
-                                        <img src="{{ url('assets/images/cicurugSMPN3.png') }}" alt="">
+                                        <img src="{{ url('assets/images/plantsasri.png') }}" alt="">
                                     </div>
                                     <div class="previewWebsite">
                                         <div class="detailWebsite">
-                                            <h5>SMPN 3 Cicurug</h5>
-                                            <a href="#">View Website</a>
+                                            <h5>Plantsasri Marketplace</h5>
+                                            <a href="http://plantsasri.co.id/shop">View Website</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
+
+
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -691,7 +714,7 @@
                         slidesToShow: 1.4,
                     }
                 },
-                
+
             ]
         });
     </script>
