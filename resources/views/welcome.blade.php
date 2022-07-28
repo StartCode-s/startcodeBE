@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StartCode | Your Friend's</title>
+    <title>StartCode | Make Your Ideas Come True</title>
     <meta name="description"
         content="Startcode is the right solution for those of you who need digitization in any aspect, both in Indonesia and internationally.">
     <meta name="keywords"
@@ -253,7 +253,7 @@
                                 </div>
                                 <div class="previewWebsite">
                                     <div class="detailWebsite">
-                                        <h5>Golden Kitchen Spray and Rennovation</h5>
+                                        <h5>Golden Kitchen Spray and Ren    ovation</h5>
                                         <a href="https://goldenkitchenrenovation.com.au/">View Website</a>
                                     </div>
                                 </div>
@@ -498,7 +498,7 @@
                                 <p>Various Reasons to Choose StartCode As Your Business Partner, Good & Convenient
                                     Service With StartCode. we are ready to serve you with kind and fast response!</p>
                                 <div class="wrapperButtonContact">
-                                    <a href="#">Get Contact</a>
+                                    <a href="https://wa.me/6285280044559">Get Contact</a>
                                 </div>
                             </div>
                         </div>
@@ -615,7 +615,7 @@
                             <a href="#" class="socialMedia">
                                 <ion-icon name="logo-facebook"></ion-icon>
                             </a>
-                            <a href="#" class="socialMedia">
+                            <a href="https://wa.me/628528004459" class="socialMedia">
                                 <ion-icon name="logo-whatsapp"></ion-icon>
                             </a>
                         </div>
