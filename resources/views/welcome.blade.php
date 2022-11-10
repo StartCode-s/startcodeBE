@@ -216,6 +216,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -253,8 +254,22 @@
                                 </div>
                                 <div class="previewWebsite">
                                     <div class="detailWebsite">
-                                        <h5>Golden Kitchen Spray and Ren    ovation</h5>
+                                        <h5>Golden Kitchen Spray and Renovation</h5>
                                         <a href="https://goldenkitchenrenovation.com.au/">View Website</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="col-12 col-md-12 left">
+                            <div class="project">
+                                <div class="previewProjectImages">
+                                    <img src="{{ url('assets/images/copyrade.png') }}" alt="">
+                                </div>
+                                <div class="previewWebsite">
+                                    <div class="detailWebsite">
+                                        <h5>Copytrade App</h5>
+                                        <a href="">View Website</a>
                                     </div>
                                 </div>
                             </div>
@@ -300,6 +315,22 @@
                                         <div class="detailWebsite">
                                             <h5>Plantsasri Marketplace</h5>
                                             <a href="http://plantsasri.co.id/shop">View Website</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br>
+
+                            <div class="col-12 col-md-12 right">
+                                <div class="project">
+                                    <div class="previewProjectImages">
+                                        <img src="{{ url('assets/images/scindapsus.png') }}" alt="">
+                                    </div>
+                                    <div class="previewWebsite">
+                                        <div class="detailWebsite">
+                                            <h5>Scindapsus Community</h5>
+                                            <a href="https://scindapsus.org">View Website</a>
                                         </div>
                                     </div>
                                 </div>
